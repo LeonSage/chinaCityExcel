@@ -27,10 +27,10 @@ nvm use 10.16.3
 git clone https://github.com/LeonSage/chinaCityExcel.git
 ```
 
-3. 安装npm包依赖
+4. 安装npm包依赖
   `npm i`
 
-4. 执行入口文件
+5. 执行入口文件
   `node index.js`
 
-5. 到指定目录打开转换后的文件即可
+6. 到指定目录打开转换后的文件即可
