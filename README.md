@@ -8,9 +8,29 @@
 2. 如果你有定制的需求，也可以手动更改原始数据并将其重新转换为excel文件。
 
 # 使用方式
-1. 下载node环境
-2. 安装npm包依赖
+1. 下载nvm
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+```
+
+2. 安装并使用指定node版本
+```
+nvm install 10.16.3
+nvm use 10.16.3
+```
+
+3. 下载本代码库到本地
+```
+git clone https://github.com/LeonSage/chinaCityExcel.git
+```
+
+3. 安装npm包依赖
   `npm i`
-3. 执行入口文件
+
+4. 执行入口文件
   `node index.js`
-4. 到指定目录打开转换后的文件即可
+
+5. 到指定目录打开转换后的文件即可
